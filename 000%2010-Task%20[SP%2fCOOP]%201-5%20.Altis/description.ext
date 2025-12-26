@@ -1,3 +1,7 @@
+#include "dialogs\defines.hpp"
+#include "dialogs\recruit_menu.hpp"
+#include "dialogs\vehicle_menu.hpp"
+
 class CfgMusic
 {
     tracks[] = {00intro, 00outro, 00suspense, 00liberation, 00mortOtage, 00mortConduc, 00actionRapide, 00espoir};
@@ -41,5 +45,20 @@ class CfgMusic
     {
         name = "00espoir";
         sound[] = {"music\00espoir.ogg", db+10, 1.0};
+    };
+};
+
+class CfgFunctions
+{
+    class MISSION
+    {
+        class Localization
+        {
+            file = "functions";
+            class lang_marker_name {};
+            class spawn_brothers_in_arms {};
+            class spawn_vehicles {};
+            class spawn_arsenal {};
+        };
     };
 };

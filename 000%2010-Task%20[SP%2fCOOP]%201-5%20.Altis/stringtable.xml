@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Mission1-5">
+    <Package name="Markers">
+        <Key ID="STR_MARKER_ZONE_1">
+            <English>Weapons</English>
+            <French>Armes</French>
+            <German>Waffen</German>
+            <Spanish>Armas</Spanish>
+            <Italian>Armi</Italian>
+            <Russian>Оружие</Russian>
+            <Polish>Broń</Polish>
+            <Czech>Zbraně</Czech>
+            <Turkish>Silahlar</Turkish>
+            <Chinese>武器</Chinese>
+            <Chinesesimp>武器</Chinesesimp>
+        </Key>
+        <Key ID="STR_MARKER_ZONE_2">
+            <English>Missions</English>
+            <French>Missions</French>
+            <German>Missionen</German>
+            <Spanish>Misiones</Spanish>
+            <Italian>Missioni</Italian>
+            <Russian>Миссии</Russian>
+            <Polish>Misje</Polish>
+            <Czech>Mise</Czech>
+            <Turkish>Görevler</Turkish>
+            <Chinese>任務</Chinese>
+            <Chinesesimp>任务</Chinesesimp>
+        </Key>
+        <Key ID="STR_MARKER_ZONE_3">
+            <English>Brothers in Arms</English>
+            <French>Frères d&apos;armes</French>
+            <German>Waffenbrüder</German>
+            <Spanish>Hermanos de armas</Spanish>
+            <Italian>Fratelli d&apos;armi</Italian>
+            <Russian>Братья по оружию</Russian>
+            <Polish>Towarzysze broni</Polish>
+            <Czech>Bratři ve zbrani</Czech>
+            <Turkish>Silah arkadaşları</Turkish>
+            <Chinese>戰友</Chinese>
+            <Chinesesimp>战友</Chinesesimp>
+        </Key>
+        <Key ID="STR_MARKER_ZONE_4">
+            <English>Vehicles</English>
+            <French>Véhicules</French>
+            <German>Fahrzeuge</German>
+            <Spanish>Vehículos</Spanish>
+            <Italian>Veicoli</Italian>
+            <Russian>Техника</Russian>
+            <Polish>Pojazdy</Polish>
+            <Czech>Vozidla</Czech>
+            <Turkish>Araçlar</Turkish>
+            <Chinese>載具</Chinese>
+            <Chinesesimp>载具</Chinesesimp>
+        </Key>
+        <Key ID="STR_ADD_BROTHER">
+            <English>Add a brother in arms</English>
+            <French>Ajouter un frère d&apos;arme</French>
+            <German>Waffenbruder hinzufügen</German>
+            <Spanish>Añadir un hermano de armas</Spanish>
+            <Italian>Aggiungi un fratello d&apos;armi</Italian>
+            <Russian>Добавить брата по оружию</Russian>
+            <Polish>Dodaj towarzysza broni</Polish>
+            <Czech>Přidat bratra ve zbrani</Czech>
+            <Turkish>Silah arkadaşı ekle</Turkish>
+            <Chinese>添加戰友</Chinese>
+            <Chinesesimp>添加战友</Chinesesimp>
+        </Key>
+        <Key ID="STR_RECRUIT_TITLE">
+            <English>Recruit Unit</English>
+            <French>Recruter une unité</French>
+            <German>Einheit rekrutieren</German>
+            <Spanish>Reclutar unidad</Spanish>
+            <Italian>Recluta unità</Italian>
+            <Russian>Рекрутировать</Russian>
+            <Polish>Rekrutuj jednostkę</Polish>
+            <Czech>Zverbovat jednotku</Czech>
+            <Turkish>Birim kirala</Turkish>
+            <Chinese>招募單位</Chinese>
+            <Chinesesimp>招募单位</Chinesesimp>
+        </Key>
+        <Key ID="STR_RECRUIT_BUTTON">
+            <English>Recruit</English>
+            <French>Recruter</French>
+            <German>Rekrutieren</German>
+            <Spanish>Reclutar</Spanish>
+            <Italian>Recluta</Italian>
+            <Russian>Нанять</Russian>
+            <Polish>Rekrutuj</Polish>
+            <Czech>Zverbovat</Czech>
+            <Turkish>Kirala</Turkish>
+            <Chinese>招募</Chinese>
+            <Chinesesimp>招募</Chinesesimp>
+        </Key>
+        <Key ID="STR_CLOSE">
+            <English>Close</English>
+            <French>Fermer</French>
+            <German>Schließen</German>
+            <Spanish>Cerrar</Spanish>
+            <Italian>Chiudi</Italian>
+            <Russian>Закрыть</Russian>
+            <Polish>Zamknij</Polish>
+            <Czech>Zavřít</Czech>
+            <Turkish>Kapat</Turkish>
+            <Chinese>關閉</Chinese>
+            <Chinesesimp>关闭</Chinesesimp>
+        </Key>
+        <Key ID="STR_ACTION_GARAGE">
+            <English>Garage</English>
+            <French>Garage</French>
+            <German>Garage</German>
+            <Spanish>Garaje</Spanish>
+            <Italian>Garage</Italian>
+            <Russian>Гараж</Russian>
+            <Polish>Garaż</Polish>
+            <Czech>Garáž</Czech>
+            <Turkish>Garaj</Turkish>
+            <Chinese>車庫</Chinese>
+            <Chinesesimp>车库</Chinesesimp>
+        </Key>
+        <Key ID="STR_GARAGE_TITLE">
+            <English>Garage</English>
+            <French>Garage</French>
+            <German>Garage</German>
+            <Spanish>Garaje</Spanish>
+            <Italian>Garage</Italian>
+            <Russian>Гараж</Russian>
+            <Polish>Garaż</Polish>
+            <Czech>Garáž</Czech>
+            <Turkish>Garaj</Turkish>
+            <Chinese>車庫</Chinese>
+            <Chinesesimp>车库</Chinesesimp>
+        </Key>
+        <Key ID="STR_GARAGE_TAKE_OUT">
+            <English>Spawn</English>
+            <French>Sortir</French>
+            <German>Ausparken</German>
+            <Spanish>Sacar</Spanish>
+            <Italian>Ritira</Italian>
+            <Russian>Создать</Russian>
+            <Polish>Stwórz</Polish>
+            <Czech>Vytvořit</Czech>
+            <Turkish>Oluştur</Turkish>
+            <Chinese>生成</Chinese>
+            <Chinesesimp>生成</Chinesesimp>
+        </Key>
+        <Key ID="STR_ERR_NO_UNIT_SELECTED">
+            <English>Error: No unit selected.</English>
+            <French>Erreur : Aucune unité sélectionnée.</French>
+            <German>Fehler: Keine Einheit ausgewählt.</German>
+            <Spanish>Error: Ninguna unidad seleccionada.</Spanish>
+            <Italian>Errore: Nessuna unità selezionata.</Italian>
+            <Russian>Ошибка: Юнит не выбран.</Russian>
+            <Polish>Błąd: Nie wybrano jednostki.</Polish>
+            <Czech>Chyba: Nebyla vybrána žádná jednotka.</Czech>
+            <Turkish>Hata: Birim seçilmedi.</Turkish>
+            <Chinese>錯誤：未選擇單位。</Chinese>
+            <Chinesesimp>错误：未选择单位。</Chinesesimp>
+        </Key>
+        <Key ID="STR_ERR_NO_VEHICLE_SELECTED">
+            <English>Error: No vehicle selected.</English>
+            <French>Erreur : Aucun véhicule sélectionné.</French>
+            <German>Fehler: Kein Fahrzeug ausgewählt.</German>
+            <Spanish>Error: Ningún vehículo seleccionado.</Spanish>
+            <Italian>Errore: Nessun veicolo selezionato.</Italian>
+            <Russian>Ошибка: Техника не выбрана.</Russian>
+            <Polish>Błąd: Nie wybrano pojazdu.</Polish>
+            <Czech>Chyba: Nebylo vybráno žádné vozidlo.</Czech>
+            <Turkish>Hata: Araç seçilmedi.</Turkish>
+            <Chinese>錯誤：未選擇載具。</Chinese>
+            <Chinesesimp>错误：未选择载具。</Chinesesimp>
+        </Key>
+        <Key ID="STR_UNIT_ARRIVING">
+            <English>%1 is arriving...</English>
+            <French>%1 arrive sur zone...</French>
+            <German>%1 trifft ein...</German>
+            <Spanish>%1 está llegando...</Spanish>
+            <Italian>%1 sta arrivando...</Italian>
+            <Russian>%1 прибывает...</Russian>
+            <Polish>%1 przybywa...</Polish>
+            <Czech>%1 přijíždí...</Czech>
+            <Turkish>%1 geliyor...</Turkish>
+            <Chinese>%1 正在抵達...</Chinese>
+            <Chinesesimp>%1 正在抵达...</Chinesesimp>
+        </Key>
+        <Key ID="STR_UNIT_JOINED">
+            <English>%1 has joined your squad.</English>
+            <French>%1 a rejoint votre escouade.</French>
+            <German>%1 ist Ihrem Trupp beigetreten.</German>
+            <Spanish>%1 se ha unido a tu escuadra.</Spanish>
+            <Italian>%1 si è unito alla tua squadra.</Italian>
+            <Russian>%1 присоединился к вашему отряду.</Russian>
+            <Polish>%1 dołączył do twojego oddziału.</Polish>
+            <Czech>%1 se připojil k vaší jednotce.</Czech>
+            <Turkish>%1 takımınıza katıldı.</Turkish>
+            <Chinese>%1 加入了你的小隊。</Chinese>
+            <Chinesesimp>%1 加入了你的小队。</Chinesesimp>
+        </Key>
+        <Key ID="STR_VEHICLE_AVAILABLE">
+            <English>Vehicle %1 available.</English>
+            <French>Véhicule %1 disponible.</French>
+            <German>Fahrzeug %1 verfügbar.</German>
+            <Spanish>Vehículo %1 disponible.</Spanish>
+            <Italian>Veicolo %1 disponibile.</Italian>
+            <Russian>Техника %1 доступна.</Russian>
+            <Polish>Pojazd %1 dostępny.</Polish>
+            <Czech>Vozidlo %1 k dispozici.</Czech>
+            <Turkish>Araç %1 mevcut.</Turkish>
+            <Chinese>載具 %1 可用。</Chinese>
+            <Chinesesimp>载具 %1 可用。</Chinesesimp>
+        </Key>
+        <Key ID="STR_DEBUG_NO_SPAWNER">
+            <English>DEBUG: vehicles_spawner not found, spawning on player.</English>
+            <French>DEBUG: vehicles_spawner introuvable, spawn sur le joueur.</French>
+            <German>DEBUG: vehicles_spawner nicht gefunden, spawne beim Spieler.</German>
+            <Spanish>DEBUG: vehicles_spawner no encontrado, generando en el jugador.</Spanish>
+            <Italian>DEBUG: vehicles_spawner non trovato, spawn sul giocatore.</Italian>
+            <Russian>DEBUG: vehicles_spawner не найден, спавн на игроке.</Russian>
+            <Polish>DEBUG: nie znaleziono vehicles_spawner, odradzanie na graczu.</Polish>
+            <Czech>DEBUG: vehicles_spawner nenalezen, spawnuji u hráče.</Czech>
+            <Turkish>DEBUG: vehicles_spawner bulunamadı, oyuncunun üzerinde oluşturuluyor.</Turkish>
+            <Chinese>DEBUG: 未找到 vehicles_spawner, 在玩家位置生成。</Chinese>
+            <Chinesesimp>DEBUG: 未找到 vehicles_spawner, 在玩家位置生成。</Chinesesimp>
+        </Key>
+        <Key ID="STR_ACTION_ARSENAL">
+            <English>Virtual Arsenal</English>
+            <French>Arsenal Virtuel</French>
+            <German>Virtual Arsenal</German>
+            <Spanish>Arsenal Virtual</Spanish>
+            <Italian>Arsenale Virtuale</Italian>
+            <Russian>Виртуальный Арсенал</Russian>
+            <Polish>Wirtualny Arsenał</Polish>
+            <Czech>Virtuální Arzenál</Czech>
+            <Turkish>Sanal Cephanelik</Turkish>
+            <Chinese>虛擬軍火庫</Chinese>
+            <Chinesesimp>虚拟军火库</Chinesesimp>
+        </Key>
+    </Package>
+</Project>

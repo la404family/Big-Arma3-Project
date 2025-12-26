@@ -4,15 +4,6 @@ Ce document détaille les instructions pour créer une mission immersive, rejoua
 
 ---
 
-## 1. Conception de Mission : Randomisation & Dynamisme
-
-Pour maximiser la rejouabilité, il est crucial d'intégrer des éléments aléatoires et une vie autonome dans la mission.
-
-### 🎲 Probabilité et Placement des Ennemis
-*   **Probabilité de présence** : Fixez à **20 %** la chance d'apparition pour les éléments aléatoires.
-*   **Groupes d'ennemis** : Placez environ **de nombreux groupes potentiels**, mais leurs apparitions seront régies par la probabilité définie.
-*   **Marqueurs d'objectifs** : Privilégiez des **zones de recherche** (ex: 1 km de diamètre) plutôt que des points précis, forçant le joueur à explorer.
-
 ### Types d’objectifs de mission
 
 - Extraction de VIP : Escorter un officier, scientifique ou informateur jusqu’à la base alliée.
@@ -34,13 +25,6 @@ Pour maximiser la rejouabilité, il est crucial d'intégrer des éléments aléa
  - Radar anti-aérien
  - Convoie ennemie
  - laboratoire secret
-
-
-### 🌍 Dynamisme Général
-*   **Monde vivant** : Intégrez des événements indépendants des actions du joueur (ex: convois, combats entre IA, trafic civil).
-*   **Tâches variées** : Mélangez les types de missions (Sauvetage, Destruction, Capture, Recupération).
-
----
 
 ## 2. Bonnes Pratiques de Codage (SP/COOP)
 
@@ -141,7 +125,7 @@ maMission/
 ├── description.ext      # Configuration générale (Respawn, Paramètres, Sounds)
 ├── stringtable.xml      # Base de données des traductions
 ├── init.sqf             # Script d'initialisation global (exécuté partout)
-└── scripts/             # Dossier stockage des scripts
+└── functions/             # Dossier stockage des scripts
     ├── fn_xxx.sqf         # Logique xxx
     ├── fn_yyy.sqf         # Logique yyy
     └── fn_zzz.sqf         # Logique zzz
