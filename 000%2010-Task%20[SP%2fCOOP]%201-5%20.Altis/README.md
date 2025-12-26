@@ -16,23 +16,14 @@ Pour maximiser la rejouabilité, il est crucial d'intégrer des éléments aléa
 ### Types d’objectifs de mission
 
 - Extraction de VIP : Escorter un officier, scientifique ou informateur jusqu’à la base alliée.
-    - Offre : une caisses de ravitaillement.
 - Récupération de personnel isolé : Secourir un prisonnier de guerre derrière les lignes ennemies.
-    - Offre : ???
 - Assassinat et récupération de documents : Éliminer un officier ennemi de haut rang. + récuperation de documents dans son inventaire.
-    - Offre : Révélation de positions ennemies sur la carte (bases, patrouilles).
 - Chasse à l’homme (HVT) : Traquer un commandant ennemi mobile entre plusieurs bases ou convois.
-    - Offre : ???
 - Suppression de défenses : Neutraliser un radar anti-aérien pour permettre un soutien aérien allié.
-    - Offre : survole rapide de la zone par un hélicoptère allié. (éviter officier ennemis)
 - Destruction de convoi : Détruire un convoi de ravitaillement ou des véhicules ennemis lourds.
-    - Offre : ???
 - Reconquête : Reprendre une base alliée (QG ennemie) tombée aux mains de l’ennemi.
-    - Offre : ???
 - Récupération de renseignements : Infiltrer un QG ennemi pour pirater un ordinateur.
-    - Offre : ???
 - Enquête mystérieuse : Explorer un laboratoire secret pour comprendre une anomalie.
-    - Offre : ???
 
 **Besoins :** 
  - Officier allié
@@ -59,7 +50,7 @@ Pour maximiser la rejouabilité, il est crucial d'intégrer des éléments aléa
 En SP, votre machine est à la fois serveur et client. En COOP, ces rôles sont séparés.
 *   `isServer` : Vrai sur la machine locale en SP, vrai uniquement sur le serveur dédié/hôte en MP.
 
-### 🚫 Erreurs Courantes
+### 🚫 Attention particulière
 *   **NE JAMAIS UTILISER** : `player` dans des scripts globaux (car `player` est différent sur chaque machine ou inexistant sur un serveur dédié).
 *   **UTILISER PLUTÔT** : 
     *   `playableUnits` : Retourne toutes les unités jouables (y compris IA si slots non utilisés).
