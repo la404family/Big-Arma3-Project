@@ -53,6 +53,19 @@
             <Chinese>載具</Chinese>
             <Chinesesimp>载具</Chinesesimp>
         </Key>
+        <Key ID="STR_MARKER_ZONE_5">
+            <English>Weather and Time</English>
+            <French>Temps et heure</French>
+            <German>Wetter und Uhrzeit</German>
+            <Spanish>Clima y hora</Spanish>
+            <Italian>Tempo e ora</Italian>
+            <Russian>Погода и время</Russian>
+            <Polish>Wiatr i godzina</Polish>
+            <Czech>Procházka a čas</Czech>
+            <Turkish>Hava durumu ve saat</Turkish>
+            <Chinese>天氣和時間</Chinese>
+            <Chinesesimp>天气和时间</Chinesesimp>
+        </Key>
         <Key ID="STR_ADD_BROTHER">
             <English>Add a brother in arms</English>
             <French>Ajouter un frère d&apos;arme</French>
@@ -133,10 +146,10 @@
         </Key>
         <Key ID="STR_GARAGE_TAKE_OUT">
             <English>Spawn</English>
-            <French>Sortir</French>
-            <German>Ausparken</German>
-            <Spanish>Sacar</Spanish>
-            <Italian>Ritira</Italian>
+            <French>Déployer</French>
+            <German>Spawnen</German>
+            <Spanish>Generar</Spanish>
+            <Italian>Genera</Italian>
             <Russian>Создать</Russian>
             <Polish>Stwórz</Polish>
             <Czech>Vytvořit</Czech>
@@ -234,6 +247,71 @@
             <Turkish>Sanal Cephanelik</Turkish>
             <Chinese>虛擬軍火庫</Chinese>
             <Chinesesimp>虚拟军火库</Chinesesimp>
+        </Key>
+        <Key ID="STR_ACTION_WEATHER">
+            <English>Modify time or weather</English>
+            <French>Modifier le temps ou la météo</French>
+            <German>Zeit oder Wetter ändern</German>
+            <Spanish>Modificar hora o clima</Spanish>
+            <Italian>Modifica tempo o meteo</Italian>
+            <Russian>Изменить время или погоду</Russian>
+            <Polish>Zmień czas lub pogodę</Polish>
+            <Czech>Změnit čas nebo počasí</Czech>
+            <Turkish>Zamanı veya hava durumunu değiştir</Turkish>
+            <Chinese>修改時間或天氣</Chinese>
+            <Chinesesimp>修改时间或天气</Chinesesimp>
+        </Key>
+        <Key ID="STR_LABEL_TIME">
+            <English>Time</English>
+            <French>Heure</French>
+            <German>Zeit</German>
+            <Spanish>Hora</Spanish>
+            <Italian>Ora</Italian>
+            <Russian>Время</Russian>
+            <Polish>Czas</Polish>
+            <Czech>Čas</Czech>
+            <Turkish>Zaman</Turkish>
+            <Chinese>時間</Chinese>
+            <Chinesesimp>时间</Chinesesimp>
+        </Key>
+        <Key ID="STR_LABEL_CLOUDS">
+            <English>Cloud Cover</English>
+            <French>Couverture nuageuse</French>
+            <German>Bewölkung</German>
+            <Spanish>Nubosidad</Spanish>
+            <Italian>Copertura nuvolosa</Italian>
+            <Russian>Облачность</Russian>
+            <Polish>Zachmurzenie</Polish>
+            <Czech>Oblačnost</Czech>
+            <Turkish>Bulut Kaplaması</Turkish>
+            <Chinese>雲量</Chinese>
+            <Chinesesimp>云量</Chinesesimp>
+        </Key>
+        <Key ID="STR_LABEL_FOG">
+            <English>Fog</English>
+            <French>Brouillard</French>
+            <German>Nebel</German>
+            <Spanish>Niebla</Spanish>
+            <Italian>Nebbia</Italian>
+            <Russian>Туман</Russian>
+            <Polish>Mgła</Polish>
+            <Czech>Mlha</Czech>
+            <Turkish>Sis</Turkish>
+            <Chinese>霧</Chinese>
+            <Chinesesimp>雾</Chinesesimp>
+        </Key>
+        <Key ID="STR_BTN_MODIFY">
+            <English>Modify</English>
+            <French>Modifier</French>
+            <German>Ändern</German>
+            <Spanish>Modificar</Spanish>
+            <Italian>Modifica</Italian>
+            <Russian>Изменить</Russian>
+            <Polish>Zmień</Polish>
+            <Czech>Změnit</Czech>
+            <Turkish>Değiştir</Turkish>
+            <Chinese>修改</Chinese>
+            <Chinesesimp>修改</Chinesesimp>
         </Key>
     </Package>
 </Project>

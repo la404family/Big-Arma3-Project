@@ -7,6 +7,7 @@ Ce document détaille les instructions pour créer une mission immersive, rejoua
 ### Types d’objectifs de mission
 
 - Extraction de VIP : Escorter un officier, scientifique ou informateur jusqu’à la base alliée.
+
 - Récupération de personnel isolé : Secourir un prisonnier de guerre derrière les lignes ennemies.
 - Assassinat et récupération de documents : Éliminer un officier ennemi de haut rang. + récuperation de documents dans son inventaire.
 - Chasse à l’homme (HVT) : Traquer un commandant ennemi mobile entre plusieurs bases ou convois.
@@ -15,6 +16,14 @@ Ce document détaille les instructions pour créer une mission immersive, rejoua
 - Reconquête : Reprendre une base alliée (QG ennemie) tombée aux mains de l’ennemi.
 - Récupération de renseignements : Infiltrer un QG ennemi pour pirater un ordinateur.
 - Enquête mystérieuse : Explorer un laboratoire secret pour comprendre une anomalie.
+- defendre le QG allié : Si l'officier meurt, la partie est perdue.
+
+**Options de mission**
+
+- drone de reconnaissance (affiche les positions des unités ennemies)
+- présence de tank ennemi 
+- soutien aérien allié
+- présence civile
 
 **Besoins :** 
  - Officier allié
@@ -56,80 +65,11 @@ Utilisez toujours les fonctions BIS pour créer des tâches côté serveur. Elle
 
 ---
 
-## 3. Support Multilingue (Internationalisation)
 
-> **Règle Principale** : **ZÉRO texte en dur** dans les scripts (.sqf). Utilisez obligatoirement `stringtable.xml`.
-
-Cela permet une traduction automatique selon la langue du jeu du client.
-
-### Structure `stringtable.xml`
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<Project name="MyMission">
-    <Package name="General">
-        <Key ID="STR_MISSION_NAME">
-            <English>Silent Dawn</English>
-            <French>Aube Silencieuse</French>
-            <German>Stille Morgenröte</German>
-            <Spanish>Amanecer Silencioso</Spanish>
-            <Italian>Alba Silenziosa</Italian>
-            <Russian>Тихий Рассвет</Russian>
-            <Polish>Cichy Świt</Polish>
-            <Czech>Tiché Svítání</Czech>
-            <Turkish>Sessiz Şafak</Turkish>
-            <Chinese>寂静黎明</Chinese>
-            <Chinesesimp>寂静黎明</Chinesesimp>
-        </Key>
-
-        <Key ID="STR_TASK_TITLE">
-            <English>Secure the area</English>
-            <French>Sécuriser la zone</French>
-            <German>Gebiet sichern</German>
-            <Spanish>Asegurar el área</Spanish>
-            <Italian>Mettere in sicurezza l'area</Italian>
-            <Russian>Обезопасить территорию</Russian>
-            <Polish>Zabezpieczyć obszar</Polish>
-            <Czech>Zabezpečit oblast</Czech>
-            <Turkish>Bölgeyi güvene alın</Turkish>
-            <Chinese>確保該地區安全</Chinese>
-            <Chinesesimp>确保该地区安全</Chinesesimp>
-        </Key>
-
-        <Key ID="STR_TASK_DESC">
-            <English>Eliminate enemy presence.</English>
-            <French>Éliminez toute présence ennemie.</French>
-            <German>Beseitigen Sie die feindliche Präsenz.</German>
-            <Spanish>Elimine la presencia enemiga.</Spanish>
-            <Italian>Eliminare la presenza nemica.</Italian>
-            <Russian>Уничтожьте присутствие противника.</Russian>
-            <Polish>Wyeliminuj obecność wroga.</Polish>
-            <Czech>Eliminujte nepřátelskou přítomnost.</Czech>
-            <Turkish>Düşman varlığını yok edin.</Turkish>
-            <Chinese>消滅敵人的存在</Chinese>
-            <Chinesesimp>消灭敌人的存在</Chinesesimp>
-        </Key>
-    </Package>
-</Project>
-```
 
 ---
 
-## 4. Structure des Fichiers
 
-Une organisation rigoureuse est essentielle pour la maintenance.
-
-```text
-maMission/
-├── mission.sqm          # Fichier éditeur principal (placement objets/unités)
-├── description.ext      # Configuration générale (Respawn, Paramètres, Sounds)
-├── stringtable.xml      # Base de données des traductions
-├── init.sqf             # Script d'initialisation global (exécuté partout)
-└── functions/             # Dossier stockage des scripts
-    ├── fn_xxx.sqf         # Logique xxx
-    ├── fn_yyy.sqf         # Logique yyy
-    └── fn_zzz.sqf         # Logique zzz
-```
 
 ---
 

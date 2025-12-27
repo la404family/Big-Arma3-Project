@@ -1,6 +1,7 @@
 #include "dialogs\defines.hpp"
 #include "dialogs\recruit_menu.hpp"
 #include "dialogs\vehicle_menu.hpp"
+#include "dialogs\weather_time_menu.hpp"
 
 class CfgMusic
 {
@@ -58,6 +59,7 @@ class CfgFunctions
             class lang_marker_name {};
             class spawn_brothers_in_arms {};
             class spawn_vehicles {};
+            class spawn_weather_and_time {};
             class spawn_arsenal {};
         };
     };
